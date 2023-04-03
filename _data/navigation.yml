@@ -5,3 +5,11 @@ main:
     url: /categories/
   - title: "Search"
     url: /search/
+
+# docs:
+#   - title: "Syllabus"
+#   children:
+#     - title: "Category"
+#       url: /categories/
+#     - title: "Tag"
+#       url: /tags/
