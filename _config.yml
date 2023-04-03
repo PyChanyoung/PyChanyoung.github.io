@@ -108,7 +108,6 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an engineer who is tech savvy"
   location         : "Calgary, Canada"
-  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
