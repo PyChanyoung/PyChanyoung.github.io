@@ -40,7 +40,7 @@ Output: false
 
 
 ## Solution
-```Python
+```
 def isValid(s):
     closing = {')':'(', '}':'{', ']':'['}
     stack = []
