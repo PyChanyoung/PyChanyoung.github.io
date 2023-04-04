@@ -44,7 +44,7 @@ Output: false
 def isValid(s):
     closing = {')':'(', '}':'{', ']':'['}
     stack = []
-
+    # Iterate parameter variation
     for bracket in s:
         if bracket not in closing:
             stack.append(bracket)
