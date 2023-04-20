@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "The BuildHeap Algorithm"
-categories: CodingInterview
+categories: DataStructure&Algorithm
 tag: [DataStructure, Algorithm, Fundamental]
 toc: true
 toc_sticky: true
