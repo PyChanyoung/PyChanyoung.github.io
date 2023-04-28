@@ -40,3 +40,32 @@ Input: head = [1], pos = -1
 Output: false
 Explanation: There is no cycle in the linked list.
 ```
+
+<**Constraints**>
+
+- The number of the nodes in the list is in the range `[0, 10^4]`.
+- `-10^5 <= Node.val <= 10^5`
+- `pos` is `-1` or a valid index in the linked-list.
+
+## Solution
+
+```
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        slow, fast = head, head
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+            if slow == fast:
+                return True
+        return False
+
+```
