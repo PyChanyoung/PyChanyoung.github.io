@@ -11,9 +11,10 @@ author_profile: false
 
 ## Question
 
-Given the `root` of a binary tree, invert the tree, and return *its root.*
+Given the `root` of a binary tree, invert the tree, and return _its root._
 
 <**Example 1**>
+
 ```
          4                4
        /   \            /   \
@@ -26,6 +27,7 @@ Output: [4, 7, 2, 9, 6, 3, 1]
 ```
 
 <**Example 2**>
+
 ```
          2                2
        /   \     =>     /   \
@@ -36,21 +38,22 @@ Output: [2, 3, 1]
 ```
 
 <**Example 3**>
+
 ```
 Input: root = []
 Output: []
 ```
 
 <**Constraints**>
+
 - The number of nodes in the list is the range `[0, 100]`.
 - `-100 <= Node.val <= 100`
 
-
 ## Solution
+
 When we face the problem, we should think about input.
 The input examples mentioned above are very balanced.
 But, there can also be unbalanced inputs, such as in the case of a Degenerate tree.
-
 
 ```
 # Definition for a binary tree node.
@@ -61,18 +64,23 @@ But, there can also be unbalanced inputs, such as in the case of a Degenerate tr
 #         self.right = right
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        // Base Case = When reach the leaf node, just return.
+        // if input is Null,
         if root is None:
-            return
+            // just return.
+            return root
 
-        // Using current(pointer) to reference the root node, we avoid modifying the original tree's root node.
+        // Assign root to `current` variable. If the value at the root is used, there is a risk of losing data in the middle of the computation.
         current = root
 
-        // Swap current's left node and right node.
+        // Swap left and right
         current.left, current.right = current.right, current.left
 
-        // Use recursion. Because node has many end points.
+        // Left recursion
         self.invertTree(current.left)
+
+        // Right recursion
         self.invertTree(current.right)
+
+        // Return the value of the final transformed tree at the root.
         return root
 ```
