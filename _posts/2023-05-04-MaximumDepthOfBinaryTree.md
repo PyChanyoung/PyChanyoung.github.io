@@ -41,3 +41,24 @@ Output: 2
 
 - The number of nodes in the tree is in the range `[0, 10^4]`.
 - `-100 <= Node.val <= 100`
+
+## Solution
+
+```
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def maxDepth(self, root: Optional[TreeNode]) -> int:
+        def maxDepthHelper(node, maximumDepth):     # A helper method is used to open a stack while computing the maximum depth.
+            if node is None:                        # If input is Null,
+                return maximumDepth                 # Return the value of the maximumDepth computed so far.
+            maximumDepth += 1                       # If input is not Null,
+            return max(maxDepthHelper(node.left, maximumDepth),
+            maxDepthHelper(node.right, maximumDepth))   # Open the left and right stacks and invoke recursion inside them. Then, at the point when the stacks are closing, each helper method returns its value, and when all stacks are closed, the values returned by the left and right stacks, up to that point, are compared.
+
+        return maxDepthHelper(root, 0)              # Return the value of maximumDepth that was ultimately returned.
+```
