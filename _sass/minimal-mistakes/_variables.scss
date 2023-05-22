@@ -14,10 +14,10 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 
-$serif: "Ubuntu Mono", Georgia, Times, serif !default;
-$sans-serif: "Ubuntu Mono", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$serif: "Comfortaa", Georgia, Times, serif !default;
+$sans-serif: "Comfortaa", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: "Ubuntu Mono", Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: "Comfortaa", Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -30,11 +30,9 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$cursive: "Comfortaa", cursive !default;
-
-$global-font-family: $monospace !default;
-$header-font-family: $monospace !default;
-$caption-font-family: $monospace !default;
+$global-font-family: $sans-serif !default;
+$header-font-family: $sans-serif !default;
+$caption-font-family: $serif !default;
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
