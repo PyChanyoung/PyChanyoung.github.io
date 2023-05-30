@@ -25,12 +25,12 @@ Thirdly, while traversing, adjacent element are compared and the larger element 
 ```
 int lastIdx = arr.length-1
 while (lastIdx > 0) {
-    for (int i=1; i<lastIdx; i++) {
-        int comparison = arr[i-1].compareTo(arr[i])
+    for (int i=0; i<lastIdx; i++) {
+        int comparison = arr[i].compareTo(arr[i+1])
         if (comparison > 0) {
-            int Temp = arr[i-1]
-            arr[i-1] = arr[i]
-            arr[i] = temp
+            int Temp = arr[i]
+            arr[i] = arr[i+1]
+            arr[i+1] = temp
          }
     }
     lastIdx--;
