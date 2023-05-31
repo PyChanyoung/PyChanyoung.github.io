@@ -20,7 +20,7 @@ However, if `arr[i] < arr[i-1]`, it indicates that the current element is not ye
 <br>
 By moving to the next element in the array and repeating this logic so far, the algorithm continues to traverse through all elements, ensuring that each element is inserted at the appropriate position in the sorted portion. Eventually, the entire array becomes sorted.
 
-## Pseudo code
+## Core logic code
 
 ```
 for (int i = 1; i < arr.length-1; i++) {
