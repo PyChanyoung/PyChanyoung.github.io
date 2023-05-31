@@ -39,9 +39,9 @@ while (lastIdx > 0) {
 
 ## Last Swap Optimization
 
-The "Last Swap Optimization" is a strategy used to improve the efficiency of the bubble sort algorithm.
-This strategy is most effective when the array is **partially sorted**.
-As the array is traversed, it tracks the point at which the last swap occurs and sets this point as the ending point for the next traversal, reducing the number of element comparisons.
+The "Last Swap Optimization" is a strategy used to improve the efficiency of the bubble sort algorithm.<br>
+This strategy is most effective when the array is **partially sorted**.<br>
+As the array is traversed, it tracks the point at which the last swap occurs and sets this point as the ending point for the next traversal, reducing the number of element comparisons.<br>
 
 ## Pseudo code (with Last Swap Optimization)
 
