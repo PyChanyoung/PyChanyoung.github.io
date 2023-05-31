@@ -13,7 +13,7 @@ author_profile: false
 
 Selection Sort is a relatively intuitive sorting algorithm. It involves finding the smallest number within the array and moving it to the corret position. By performing this algorithm, the array gradually becomes sorted as larger numbers are sequentially placed from the beginning.
 
-## Pseudo code
+## Core logic code
 
 ```
 for (int i = 0; i < arr.length - 1; i++) {

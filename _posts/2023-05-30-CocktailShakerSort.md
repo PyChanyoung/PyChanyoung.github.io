@@ -15,7 +15,7 @@ The Cocktail Shaker Sort, an application of the Bubble Sort algorithm, sorts an 
 This algorithm utilizes the Last Swap Optimization to commence the sorting process from both the far left and far right ends, successively.<br>
 
 
-## Pseudo code
+## Core logic code
 
 ```
 boolean swapsMade = true;

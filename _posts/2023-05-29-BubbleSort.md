@@ -21,7 +21,7 @@ Secondly, the declared final index of the array decreases with each iteration. T
 
 Thirdly, while traversing, adjacent element are compared and the larger element is placed behind. It's because of this third idea that Bubble Sort allows the largest element to be positioned at the end during traversal.
 
-## Pseudo code
+## Core logic code
 ```
 int lastIdx = arr.length-1;
 while (lastIdx > 0) {
@@ -43,21 +43,22 @@ The "Last Swap Optimization" is a strategy used to improve the efficiency of the
 This strategy is most effective when the array is **partially sorted**.<br>
 As the array is traversed, it tracks the point at which the last swap occurs and sets this point as the ending point for the next traversal, reducing the number of element comparisons.<br>
 
-## Pseudo code (with Last Swap Optimization)
+## Core logic code (with Last Swap Optimization)
 
 ```
-int lastSwap = arr.length-1;
-while (lastSwap > 0) {
-    int newLastSwap = 0;
-    for (int i = 0; i < lastSwap; i++) {
+boolean swapsMade = true
+int endIdx = arr.length-1;
+while (swapsMade) {
+    swapsMade = false;
+    for (int i = 0; i < endIdx; i++) {
         if (arr[i] > arr[i+1]) {
             int temp = arr[i];
             arr[i] = arr[i+1];
             arr[i+1] = temp;
-            newLastSwap = i;
+            swapsMade = true;
+            endIdx = i;
         }
     }
-    lastSwap = newLastSwap;
 }
 ```
 
