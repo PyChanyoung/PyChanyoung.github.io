@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "MergeSort"
+title: "Merge Sort"
 categories: DataStructure&Algorithm
 tag: [DataStructure, Algorithm, Fundamental]
 toc: true
@@ -11,7 +11,7 @@ author_profile: false
 
 ## Merge Sort
 
-Merge Sort is one of **Divide and Conquer** strategies.<br><br>
+Merge Sort is one of **Divide and Conquer** strategies. Merge Sort divides the given array into the smallest possible units, compares and sorts them, and then merges them back together. It recursively divides the array into halves until the base case is reached, where each half consists of a single element. Then, it merges the sorted halves back together to create a fully sorted array.
 
 
 ### Process
@@ -23,7 +23,7 @@ Merge Sort is one of **Divide and Conquer** strategies.<br><br>
 ### Merging Process
 
 1. Given two arrays, compare the first element of each.
-2. Remove the smaller element between the two from its original array and add  it to a new array.
+2. Remove the smaller element between the two from its original array and add it to a new array.
 3. Repeat this process until one of the two arrays is empty.
 4. Append all elements of the remaining array to the new array.
 5. The new array is now sorted.
