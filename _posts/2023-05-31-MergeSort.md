@@ -34,7 +34,7 @@ This is how Merge Sort uses division and merging to sort the entire array. The t
 
 ### Code
 ```
-// Part 1
+// Part 1 - Dividing an array using recursive functions
 public static void mergeSort(int[] array) {
     if (array.length < 2)
         return;
@@ -57,7 +57,7 @@ public static void mergeSort(int[] array) {
     merge(array, left, right);
 }
 
-// Part 2
+// Part 2 - Sorting and merging two subarrays
 private static void merge(int[] array, int[] left, int[] right) {
     int i = 0, j = 0;
     while (i < left.length && j < right.length) {
@@ -70,7 +70,7 @@ private static void merge(int[] array, int[] left, int[] right) {
         }
     }
 
-    // Part 3
+    // Part 3 - Inserting remaining subarrays into their correct positions after comparisons
     while (i < left.length) {
         array[i + j] = left[i];
         i++;
