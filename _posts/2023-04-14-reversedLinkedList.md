@@ -43,9 +43,17 @@ Output: []
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        prev, curr = None, head
+
+        while curr:
+            next_curr = curr.next
+            curr.next = prev
+            prev = curr
+            curr = next_curr
+        return prev
 
 ```
 
 ## Time/Space Complexity
-- Time Complexity: O()
-- Space Complexity: O()
+- Time Complexity: O(n)
+- Space Complexity: O(1)
