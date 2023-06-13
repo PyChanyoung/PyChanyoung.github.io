@@ -37,15 +37,15 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 ```
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        myCharSet = set() // Using a Set data structure. Set is beneficial data structure to find duplicates
-        count = 0 // Keep updating a number as go along, and as a result, return this number.
-        idx_1 = 0 // The reason for using two indices (idx_1, idx_2) is to remove repeating characters when we traverse the string with one index, starting from 0, and a duplicate occurs.
+        myCharSet = set()  # Using a Set data structure to find duplicates.
+        count = 0  # Keep updating a number as we go along and return this number.
+        idx_1 = 0  # Two indices (idx_1, idx_2) are used to remove repeating characters when traversing the string with one index, starting from 0, and a duplicate occurs.
         for idx_2 in range(len(s)):
-            while s[idx_2] in myCharSet:    // The reason we use 'while' instead of 'if' is because "duplicates can occur multiple times".
-                myCharSet.remove(s[idx_1])  // We know through the conditional statement that s[idx_2] already exists in myCharSet, and we know that s[idx_1] is the same as s[idx_2]. Since the outer loop progresses linearly to the right, we need to remove s[idx_1], which is located on the left side, to properly eliminate the duplicate character and continue searching for new duplicate characters.
+            while s[idx_2] in myCharSet:  # Using 'while' instead of 'if' because duplicates can occur multiple times.
+                myCharSet.remove(s[idx_1])  # We know through the conditional statement that s[idx_2] already exists in myCharSet, and we know that s[idx_1] is the same as s[idx_2]. Since the outer loop progresses linearly to the right, we need to remove s[idx_1], which is located on the left side, to properly eliminate the duplicate character and continue searching for new duplicate characters.
                 idx_1 += 1
             myCharSet.add(s[idx_2])
-            count = max(count, idx_2 - idx_1 + 1)   // idx_2 - idx_1 + 1 represents the current size of the substring. idx_2 points to the rightmost index of the substring, and idx_1 points to the leftmost index. Therefore, idx_2 - idx_1 + 1 calculates the length of the substring.
+            count = max(count, idx_2 - idx_1 + 1)  # idx_2 - idx_1 + 1 represents the current size of the substring. idx_2 points to the rightmost index of the substring, and idx_1 points to the leftmost index. Therefore, idx_2 - idx_1 + 1 calculates the length of the substring.
         return count
 ```
 
