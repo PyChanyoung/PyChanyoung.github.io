@@ -11,7 +11,8 @@ author_profile: false
 
 ## Definition
 
-SQL query execution order refers to the sequence in which operations in a SQL query are performed by the database management system. Despite the order in which the clauses appear in the written SQL statement, the actual execution order is determined by the database system's query optimizer to ensure efficient data retrieval.
+SQL query execution order refers to the sequence in which operations in a SQL query are performed by the database management system.<br><br>
+Despite the order in which the clauses appear in the written SQL statement, the actual execution order is determined by the database system's query optimizer to ensure efficient data retrieval.
 
 ## SQL query execution order
 
