@@ -36,19 +36,11 @@ Explanation:
 <**Example 2**>
 
 ```
-Input: s = "bbbbb"
-Output: 1
-Explanation: The answer is "b", with the length of 1.
-```
-
-<**Example 3**>
-
-```
 Input: n = 2
 Output: false
 ```
 
-<**Example 3**>
+<**Constraints**>
 
 ```
 1 <= n <= 2^31 - 1
