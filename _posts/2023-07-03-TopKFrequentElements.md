@@ -38,6 +38,7 @@ Output: [1]
 ## Solution
 
 ```
+Time Complexity: O(klogN)
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         my_dic = {}
@@ -54,6 +55,25 @@ class Solution:
             res.append(key)
 
         return res
+
+Time Complexity: O(n)
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        my_dic = {}
+        frequent = [[] for i in range(len(nums) + 1)]
+
+        for num in nums:
+            my_dic[nums] = 1 + my_dic.get(num, 0)
+
+        for value, count in my_dic.items():
+            frequent[count].append(value)
+
+        result = []
+        for idx in range(len(freq)-1, 0, -1):
+            for value in freq[idx]:
+                result.append(value)
+                if len(result) == k:
+                    return result
 ```
 
 ## Time/Space Complexity
