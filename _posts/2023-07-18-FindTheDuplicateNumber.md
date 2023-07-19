@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Leetcode(Medium) - Two Sum II - Input Array Is Sorted"
+title: "Leetcode(Medium) - Find The Duplicate Number"
 categories: CodingInterview
 tag: [Python, Algorithm, Coding]
 toc: true
