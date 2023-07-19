@@ -78,13 +78,13 @@ idx:0/val:1 -> idx:1/val:3 -> idx:3/val:2 -> idx:2/val:4 <-> idx:4/val:2
 ```
 
 Let's check it out mathematically.<br>
-According to the algorithm, 2*Tortoise = Hare.<br>
+According to the algorithm, 2(Tortoise) = Hare.<br>
 `p` is the distance from the starting point to the beginning of the cycle.<br>
 `c` is the length of the cycle.<br>
 `x` is the distance from the intersection where tortoise and hare meet to the beginning of the next cycle.<br>
 At the point of intersection, the total distance the tortoise has moved is p + c - x.<br>
 The hare, moving twice as fast, has moved a total distance of p + 2c - x.<br>
-By setting 2*Tortoise = Hare, we get 2(p+c-x) = p+2c-x.<br>
+By setting 2(Tortoise) = Hare, we get 2(p+c-x) = p+2c-x.<br>
 Simplifying, we find that p = x.<br>
 Since this formula proves that p and x are equal, if one pointer is moved back to the starting point after the two pointers meet, and then both pointers are moved the same distance, they will meet at the duplicated number, which is also the starting point of the cycle.<br>
 
