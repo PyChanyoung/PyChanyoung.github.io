@@ -63,6 +63,32 @@ class Solution:
                 return tortoise
 ```
 
+## Description
+
+We can use the Floyd's Tortoise and Hare Algorithm to solve this problem.
+Rationale: Given an array of length n+1 with elements ranging from 1 to n, and there is one repeated number.
+Floyd's Tortoise and Hare in other words Cycle Detection algorithm can be used to find a cycle in a linked list or an array.
+
+Initially, the tortoise and hare are at the starting point. The tortoise moves one step at a time and the hare moves two steps at a time.
+The point at which the tortoise and the hare meet is somewhere inside the cycle.
+
+```
+indices	: 0 1 2 3 4
+numbers	: 1 3 4 2 2
+idx:0/val:1 -> idx:1/val:3 -> idx:3/val:2 -> idx:2/val:4 <-> idx:4/val:2
+```
+
+Let's check it out mathematically.
+According to the algorithm, 2*Tortoise = Hare.
+`p` is the distance from the starting point to the beginning of the cycle.
+`c` is the length of the cycle.
+`x` is the distance from the intersection where tortoise and hare meet to the beginning of the next cycle.
+At the point of intersection, the total distance the tortoise has moved is p + c - x.
+The hare, moving twice as fast, has moved a total distance of p + 2c - x.
+By setting 2*Tortoise = Hare, we get 2(p+c-x) = p+2c-x. => 2p + 2c - 2x =
+Simplifying, we find that p = x.
+Since this formula proves that p and x are equal, if one pointer is moved back to the starting point after the two pointers meet, and then both pointers are moved the same distance, they will meet at the duplicated number, which is also the starting point of the cycle.
+
 ## Time/Space Complexity
 
 - Time Complexity: O(n)
