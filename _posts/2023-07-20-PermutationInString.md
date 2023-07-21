@@ -69,7 +69,7 @@ class Solution:
             if s1_hashMap[index] == s2_hashMap[index]:
                 matches += 1
             elif s1_hashMap[index] - 1 == s2_hashMap[index]:
-                matchese -= 1
+                matches -= 1
 
             left += 1
 
