@@ -49,10 +49,12 @@ class Solution:
             s2_hashMap[ord(s2[i]) - ord('a')] += 1
 
         matches = 0
+
         for i in range(26):
             matches += 1 if s1_hashMap[i] == s2_hashMap[i] else 0
 
         left = 0
+        
         for right in range(len(s1), len(s2)):
             if matches == 26:
                 return True
