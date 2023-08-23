@@ -55,7 +55,7 @@ When we face the problem, we should think about input.
 The input examples mentioned above are very balanced.
 But, there can also be unbalanced inputs, such as in the case of a Degenerate tree.
 
-```
+```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):

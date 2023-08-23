@@ -49,7 +49,7 @@ Explanation: There is no cycle in the linked list.
 
 ## Solution
 
-```
+```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

@@ -42,7 +42,7 @@ Explanation: There are three ways to climb to the top.
 
 ## Solution
 
-```
+```python
 # Using DP
 class Solution:
     def climbStairs(self, n: int) -> int:

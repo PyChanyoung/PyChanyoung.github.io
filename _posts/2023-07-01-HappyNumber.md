@@ -48,7 +48,7 @@ Output: false
 
 ## Solution
 
-```
+```python
 # 1
 class Solution:
     def isHappy(self, n: int) -> bool:

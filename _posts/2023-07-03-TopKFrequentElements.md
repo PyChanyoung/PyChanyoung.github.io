@@ -37,8 +37,8 @@ Output: [1]
 
 ## Solution
 
-```
-Time Complexity: O(klogN)
+```python
+# Time Complexity: O(klogN)
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         my_dic = {}
@@ -56,7 +56,7 @@ class Solution:
 
         return res
 
-Time Complexity: O(n)
+# Time Complexity: O(n)
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         my_dic = {}

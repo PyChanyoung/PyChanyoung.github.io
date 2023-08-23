@@ -45,7 +45,7 @@ Output: 3
 
 ## Solution
 
-```
+```python
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         tortoise, hare = 0, 0
