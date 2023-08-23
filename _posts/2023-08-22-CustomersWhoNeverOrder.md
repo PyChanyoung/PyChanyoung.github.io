@@ -11,7 +11,7 @@ author_profile: false
 
 ## SQL Schema
 
-```
+```sql
 Create table If Not Exists Customers (id int, name varchar(255))
 Create table If Not Exists Orders (id int, customerId int)
 Truncate table Customers
@@ -90,7 +90,7 @@ Output:
 
 ## Solution
 
-```
+```sql
 select name as Customers
 from Customers customer
 left join Orders order

@@ -11,7 +11,7 @@ author_profile: false
 
 ## SQL Schema
 
-```
+```sql
 Create table If Not Exists Employee (id int, name varchar(255), salary int, managerId int)
 Truncate table Employee
 insert into Employee (id, name, salary, managerId) values ('1', 'Joe', '70000', '3')
@@ -67,7 +67,7 @@ Explanation: Joe is the only employee who earns more than his manager.
 
 ## Solution
 
-```
+```sql
 select employee.name as Employee
 from Employee employee
 join Employee manager

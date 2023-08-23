@@ -38,7 +38,7 @@ Output: 9
 
 ## Solution
 
-```
+```python
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         numSet = set(nums)
