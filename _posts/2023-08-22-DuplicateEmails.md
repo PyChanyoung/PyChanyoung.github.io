@@ -63,7 +63,7 @@ Explanation: a@b.com is repeated two times.
 
 ## Solution
 
-```
+```sql
 select email as Email
 from Person
 group by email
