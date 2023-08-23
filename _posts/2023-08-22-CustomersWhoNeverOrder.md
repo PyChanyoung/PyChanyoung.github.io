@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Leetcode(Easy) - Duplicate Emails"
+title: "Leetcode(Easy) - Customers Who Never Order"
 categories: SQL
 tag: [SQL, Database, MySQL]
 toc: true
