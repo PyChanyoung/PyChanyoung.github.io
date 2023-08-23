@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Leetcode(Easy) - Combine Two Tables"
-categories: Data Engineering
+categories: SQL
 tag: [SQL, Database, MySQL]
 toc: true
 toc_sticky: true
