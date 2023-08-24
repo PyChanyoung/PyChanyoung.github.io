@@ -73,6 +73,6 @@ In 2015-01-04, the temperature was higher than the previous day (20 -> 30).
 select td.id
 from Weather td
 join Weather yd
-on td.recordDate = DATE_ADD(yd.recordDAte, interval 1 day)
+on td.recordDate = DATE_ADD(yd.recordDate, interval 1 day)
 where td.temperature > yd.temperature
 ```
