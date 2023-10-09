@@ -11,10 +11,6 @@ author_profile: false
 
 **Note**: The following content is summarized from the YouTube video titled "Crack Metric/Business Case/Product Sense Problems for Data Scientists | Data Science Interviews" from the `Emma Ding` channel.
 
-# Crack Metric/Business Case/Product Sense Problems for Data Scientists
-
-## Cracking Product Sense Problems
-
 ### 1. Understanding Product Sense/Business Case/Metric Problems
 
 - **Why and When Are These Questions Asked During Interviews?**
