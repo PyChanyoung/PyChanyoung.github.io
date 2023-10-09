@@ -5,7 +5,7 @@ categories: Career
 tags: [Data Science, Interview, Product Sense]
 toc: true
 toc_sticky: true
-toc_label: "On this Page"
+toc_label: Syllabus
 author_profile: false
 ---
 
