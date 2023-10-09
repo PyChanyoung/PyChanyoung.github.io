@@ -9,6 +9,8 @@ toc_label: Syllabus
 author_profile: false
 ---
 
+**Note**: The following content is summarized from the YouTube video titled `Acing the Product Data Science Interview (for Facebook, Google, and Amazon Interviews)` from the `Jay Feng` channel.
+
 Understanding the vital role and preparing for interviews in data science.
 
 ## In-depth Understanding of a Data Scientist's Role
