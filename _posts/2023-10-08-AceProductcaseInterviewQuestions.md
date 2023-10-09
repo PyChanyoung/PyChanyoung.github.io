@@ -9,7 +9,7 @@ toc_label: Syllabus
 author_profile: false
 ---
 
-**Note**: The following content is summarized from the YouTube video titled "Ace Product/Business Case Interview Questions: A Data-driven Approach for Data Scientists" from the `Emma Ding` channel.
+**Note**: The following content is summarized from the YouTube video titled `Ace Product/Business Case Interview Questions: A Data-driven Approach for Data Scientists` from the `Emma Ding` channel.
 
 # Example Interview Questions
 
