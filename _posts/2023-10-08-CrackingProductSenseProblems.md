@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "Cracking Product Sense Problems"
-categories: Preparing Interview
-tag: [Interview, Product Sense]
+categories: Interview
+tag: [Data Science, Interview, Product Sense]
 toc: true
 toc_sticky: true
 toc_label: Syllabus

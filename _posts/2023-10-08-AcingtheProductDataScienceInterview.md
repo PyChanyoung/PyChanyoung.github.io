@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Data Scientist Role and Interview Preparation"
-categories: Career
+categories: Interview
 tag: [Data Science, Interview, Product Sense]
 toc: true
 toc_sticky: true
