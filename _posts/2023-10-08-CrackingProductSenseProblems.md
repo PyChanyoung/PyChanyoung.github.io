@@ -9,7 +9,7 @@ toc_label: Syllabus
 author_profile: false
 ---
 
-**Note**: The following content is summarized from the YouTube video titled `Crack Metric/Business Case/Product Sense Problems for Data Scientists | Data Science Interviews` from the `Emma Ding` channel.
+**Note**: The following content is summarized from the YouTube video titled [Crack Metric/Business Case/Product Sense Problems for Data Scientists | Data Science Interviews](https://youtu.be/nPJKFWMiIC8) from the [Emma Ding](https://www.youtube.com/@emma_ding) channel.
 
 ### 1. Understanding Product Sense/Business Case/Metric Problems
 
