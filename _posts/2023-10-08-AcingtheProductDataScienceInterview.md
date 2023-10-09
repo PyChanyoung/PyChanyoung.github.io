@@ -9,8 +9,6 @@ toc_label: Syllabus
 author_profile: false
 ---
 
-# Data Scientist Role and Interview Preparation
-
 Understanding the vital role and preparing for interviews in data science.
 
 ## In-depth Understanding of a Data Scientist's Role
