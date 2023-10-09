@@ -2,7 +2,7 @@
 layout: single
 title: "Cracking Product Sense Problems"
 categories: Preparing Interview
-tags: [Interview, Product Sense]
+tag: [Interview, Product Sense]
 toc: true
 toc_sticky: true
 toc_label: Syllabus
