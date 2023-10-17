@@ -64,9 +64,18 @@ Aspects:
 Example Questions:
 
 - How would you set up an experiment to test a new feature in Quora?
+
+  - Sample Answer: First, I'd define our success criteria, perhaps it's increased engagement. I'd then segment users into two groups: one that experiences the new feature and another that doesn't. We'd compare the behavior between the groups over a set period and see if the new feature delivers on our success criteria.
+
 - How would you decide whether or not to launch a feature change?
+
+  - Sample Answer: After the A/B test, I'd evaluate if the feature meets our defined success criteria. If there's a positive impact and user feedback aligns, it would make a strong case for launch. It's key to combine both data insights and user sentiment.
+
 - What changes would you make to the TikTok app?
+
 - How would you test if the proposed change is effective or not?
+
+  - Sample Answer: I'd conduct an A/B test. One user group would have the new feature while the other wouldn't. By comparing engagement metrics, especially participation in these feature, we can gauge the feature's effectiveness.
 
 ### 3. Diagnose a Problem (18%)
 
@@ -81,10 +90,19 @@ Example Questions:
 **Scenario Examples:**
 
 1. The ETA of Lyft or Uber drivers has increased by 3 minutes, and you are asked to explain why.
+
    - Internal factors (e.g., changes to the app's algorithm)
    - External factors (e.g., changes in traffic patterns or increased demand for rides)
+
+   - Sample Answer: I'd start by checking if there were any recent changes to the app's algorithm that might affect the ETA. If that's not the case, I'd then look into external factors. It's possible that there's been a significant change in traffic patterns, or there might be an increased demand for rides causing drivers to be busier than usual.
+
 2. Investigating a 1% drop in daily active users of Slack.
+
+   - Sample Answer: My initial step would be to check if there were any recent updates or changes to Slack that might have caused user dissatisfaction. If nothing stands out, I'd then consider external factors, such as competitor activity or market changes. Additionally, it would be crucial to gather user feedback to directly understand any pain points they might be facing.
+
 3. A referral program in DoorDash isn't generating the expected response rate.
+
+   - Sample Answer: First, I'd want to examine the user experience of the referral process itself. Is it intuitive and easy? If the process is fine, then I'd look at the incentives being offered – are they compelling enough for users to refer? Beyond that, I'd analyze external factors like market saturation or if competitors are offering more attractive referral schemes.
 
 ### 4. Product Specific (13%)
 
