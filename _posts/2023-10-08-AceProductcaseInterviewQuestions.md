@@ -36,11 +36,23 @@ The idea behind a data-driven approach involves:
 Example Questions:
 
 - How would you measure the success of YouTube's Story feature?
+
+  - Sample Answer1: Success for YouTube's Story feature would be evident in robust engagement metrics, notably view counts and likes. Equally pivotal is tracking how many users adopt this feature and remain consistent users over time. Direct feedback, through surveys or comments, provides invaluable insights, complementing hard data. Of course, ensuring the feature operates without glitches is fundamental..
+
+  - Sample Answer2: Evaluating the success of YouTube's Story feature requires a multi-faceted approach. High engagement levels, reflected in views and interactions, serve as immediate indicators. Monitoring user growth and retention provides insights into its longer-term appeal. Gathering direct user feedback can highlight areas for refinement, and flawless technical performance is a given.
+
 - What metrics would you look at to see if it's doing well?
 
-Alternate Version:
+  - Sample Answer1: Primarily, I'd gauge success by looking at user engagement. Key metrics such as daily active users, session duration, and interaction rates give a clear picture. When users are deeply engaged, it's a strong indicator of the feature's effectiveness. Additionally, tracking user retention and referrals is essential, as returning users and recommendations signal long-term value and satisfaction.
+
+  - Sample Answer2: I'd prioritize both engagement and the overall user experience. While metrics like views and interactions provide immediate insights, the bigger picture emerges when considering user retention and recommendations. Additionally, examining the user journey helps identify potential bottlenecks or areas for enhancement, ensuring not just current success but also paving the way for future improvements.
+    Alternate Version:
 
 - If Uber is planning to launch a referral program for riders, what metrics would you use to measure its success?
+
+  - Sample Answer1: To gauge the success of Uber's rider referral program, I'd focus on the number of new riders acquired through referrals and the retention rate of these referred riders. Additionally, tracking the average number of referrals made by each existing rider can shed light on the program's appeal and effectiveness.
+
+  - Sample Answer2: Evaluating the success of such a program would require a mix of acquisition and engagement metrics. Key indicators would include the count of successful referrals, the lifetime value of referred riders, and the frequency with which existing riders utilize the referral feature. It's not just about getting new riders, but also ensuring they become loyal users.
 
 ### 2. A/B Testing (22%)
 
