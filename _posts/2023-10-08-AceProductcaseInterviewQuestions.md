@@ -109,7 +109,12 @@ Example Questions:
 Sample Questions:
 
 - How do you evaluate the impact of fake news on Facebook?
+
+  - Sample Answer: To assess the impact, I'd first measure the spread and reach of flagged fake news. By understanding how many users are exposed to it and how frequently, we'd get an initial sense of the scale. Then, it's crucial to identify any correlation between exposure to fake news and user churn rates or reduced activity. Lastly, surveying users on their perception of Facebook's content credibility could give insights into the platform's trustworthiness.
+
 - How do you determine the optimal ratio between company posts and individual posts for LinkedIn feeds?
+
+  - Sample Answer: To find the optimal ratio, I'd start with a hypothesis-based on current user behavior. For instance, if professionals are more active during certain times (like weekdays) for job searching or networking, company posts might be more relevant. Next, I'd conduct A/B tests, showing different user groups varied ratios. Monitoring engagement – such as likes, shares, and comments – would provide insight into which ratio fosters the best user interaction. Additionally, retention metrics could show if a particular mix keeps users returning and staying active on the platform. Over time, as the platform and user behavior evolve, this ratio might need periodic re-evaluation.
 
 ### 5. Improve a Product (10%)
 
