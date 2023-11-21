@@ -70,9 +70,25 @@ I think the biggest reason to launch podcasts is to make sure that people stay, 
 
 - So decreasement of churn and I guess why do you say that one versus like growth and the other one engagement and then I think was it upsells?
 
+Yeah exactly upsell aspects well so staying power kind of again breaks down into prevent churn but also an upsell piece in my mid. You're actually solving kind of two aspects. There is one you're converting for you, you have another reason for free users to convert into premium users. And for churn it's for premium users to stay in spotify and continue using the app because it's the place where they can get everything not just the music or the really the music that they are usually listening to.
+
+- Okay.
+
+With that in mind the reason that I'm thinking of preventing churn as a top aspect is because if spotify doesn't offer podcasts then I have to find an alternative app to consume podcasts and for iPhone users that's likely to be like the podcast app that's native on iPhone or that's going to be for Android users it can be really any selection of apps from the app store or from their play store.
+
+- Okay.
+
+And Play store apps so while the podcast app doesn't have any there's no cost to an iPhone user using the podcast app but I then have to set up an entire library within a different app ecosystem than I would if spotify wasn't there. So there's no reason for me to stay in spotify and continue using it if that's not what I'm consuming anymore if music I'm if my consumption habits are changing.
+From the Play store app there's a lot of monetilzation that is going on within the app itself. I do remember that there are some apps that do offer basically if you don't pay for a premium subscription it's an ad supported model as well so they'll insert ads at different splices in the podcast and that's from the app not from the actual content creator.
+So from an upsell piece though is free users if podcasts were introduced free users would get again the ad supported model of spotify but this time within the apps within the content itself. So, it becomes a really a better offering altogether for people to stay in.
+
 Step 2. Metrics to analyze the decision
 
+- You know, I guess so let's say you are the PM at spotify or the excutive who has to deal with this decision right and I think all of these kind of sound logically correct. But let's say that because we are so data driven we have to like come up with some sort of like metrics to kind of analyze and then also use as basis for like quantifying. This is the right decision. So, for example if we enter the podcast space I can assume that it's gonna cost one year of like 100 engineers time to like build the podcast feature and then let's say buy a bunch of like media orgs to then basically create podcasts right and so essentially it's there is a cost and so is there any kind of quantification in terms of how we can make sure that this cost is worth it all right because this is such a huge decision.
+
 Step 3. Quantify decision making
+
+- And I think while you're kind of like metrics
 
 Step 4. Value/Risk Matrix
 
