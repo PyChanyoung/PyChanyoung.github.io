@@ -88,7 +88,10 @@ Step 2. Metrics to analyze the decision
 
 Step 3. Quantify decision making
 
-- And I think while you're kind of like metrics
+- And I think while you're kind of like metrics there or not your metrics but like generally the flow that you're saying does meke a lot of sense specifically do we have to like quantify this by actually saying like if we didn't do and actually enter the podcast space what would happen to spotify? Would it be significantly worse in the next few years for our business?
+
+So, looking at churn I would be curious to understand the actual underlying data of percent of people that are leaving the app because podcasts weren't available and like a higher order above that is did they feel that the content that was available wasb comprehensive in relation to other apps so I'm assuming here is that many from the data that potify has that the a driver of churn is not having enough content and that the podcasts are one of those factors.
+So, there's two angles to me
 
 Step 4. Value/Risk Matrix
 
