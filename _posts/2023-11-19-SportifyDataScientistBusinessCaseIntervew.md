@@ -11,11 +11,13 @@ author_profile: false
 
 **Note**: The following content is summarized from [Spotify Data Scientist Business Case Interview](https://youtu.be/ALSU1nZaxBo) from the [Jay Feng](https://www.youtube.com/@iqjayfeng) channel.
 
+```
 Question
 
 A media company makes its money from monthly subscription fees. The company is considering entering the podcast space.
 
 How would you measure the impact on customer lifetime value of such a move?
+```
 
 Step 1. Clarifiying questions & assumptions
 
@@ -54,7 +56,19 @@ Cool, so I guess really the challenge I think that spotify is probably having is
 
 - Yeah
 
-So, two is let's actually look at this from the other angle which is upgrades. So we actually want people to go from free to premium. And then 3rd One is engagement and usage. From that angle is of course I think it implies that we want to either encourage usage of free or encourage uses or premium to spend so that people have more incentive to stay within the app and stay within the ecosystem. But four is also to grow. I think the current market today and this is where I'll get into the competitors now and we'll start transitioning to the external motivations is that there's just not that many options available to people today to stream or consume content in that streaming fashion. There's like a couple of major heavy hitters that you have but int the podcast space it really expands even further grow user base. Are there anything that you think I've missed here on the internal side?
+So, two is let's actually look at this from the other angle which is upgrades. So we actually want people to go from free to premium. And then 3rd One is engagement and usage. From that angle is of course I think it implies that we want to either encourage usage of free or encourage uses or premium to spend so that people have more incentive to stay within the app and stay within the ecosystem. But four is also to grow. I think the current market today and this is where I'll get into the competitors now and we'll start transitioning to the external motivations is that there's just not that many options available to people today to stream or consume content in that streaming fashion. There's like a couple of major heavy hitters that you have but int the podcast space it really expands even further grow user base. Are there anything that you think I've missed here on the internal side before we move forward to the external side?
+
+- No I think you actually probably hit on every single one of them. And mainly I think this is great because you're kind of going between growth, upsells, continued engagement and then reducment of churn. which is probably everything you need for SAS at this point.
+
+Cool. Now engagement and usage so I'm going to actually break this down into a couple buckets which is I'm going to look at them differently and then grow.
+On engagement I'm going to look at really how do we get people to check out new content. And on usage really the biggest metric here is time spent in app. Grow side well really it'sadding new users to the app. So actaully grow exist in two ways. One is increase number of free users and increase the number of paid users and really the other thing is. So around engagement and usage I think there is the high level metric but there's also things that I would consider like time spent by free and actually free and paid. And really actually around churn, so I don't want to miss that as well why would anybody churn in the first place well. It's because they have another source of consuming content. So, not it's time to look at really the competitors.
+I'm gonna look at the leave aspect and they can leave to a couple different options. One is Youtube Music, one is Apple service, and the other is really like I think those are the two biggest names right now and then there's like this other category and that other category breaks down into things like stitcher, let's say pocket casts, and you have like the news agencies as well that all have their own native apps. Is this all making sense for now? And then is there anywhere you want me to clarify and go back to this make sense?
+
+- I think specifically we should probably start drawing it in into how podcasts affect the space right because we're still talking about kind of music and their core business model of spotify. And so specifically we start thinking about how potcasts kind of affect these four metrics where do you think the first one kind of stands out of like all four of them?
+
+I think the biggest reason to launch podcasts is to make sure that people stay, people that are in the spotify ecosystem stay within the spotify ecosystem. So it's really increasing like staying power if you want to call it.
+
+- So decreasement of churn and I guess why do you say that one versus like growth and the other one engagement and then I think was it upsells?
 
 Step 2. Metrics to analyze the decision
 
