@@ -115,22 +115,20 @@ The problem says that the group with a little reward has a higher response rate 
 <style>
 details summary {
   cursor: pointer;
-  padding: 5px;
-  font-size: 16px;
-  color: blue;
-}
-
-details summary b {
-  font-weight: bold;
+  padding: 10px;
+  font-size: 18px; /* 글꼴 크기를 더 크게 조정 */
+  color: #FFFFFF; /* 밝은 색상으로 변경 */
+  background-color: #353B45; /* 배경색을 약간 밝은 색으로 조정 */
 }
 
 details p {
   padding: 5px;
-  font-size: 14px;
-  color: #333;
+  font-size: 16px; /* 텍스트 글꼴 크기 조정 */
+  color: #CCCCCC; /* 밝은 회색으로 텍스트 색상 변경 */
 }
 
 details p strong {
   font-weight: bold;
+  color: #FFFFFF; /* 강조 텍스트 색상도 밝게 조정 */
 }
 </style>
