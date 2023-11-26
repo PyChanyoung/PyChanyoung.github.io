@@ -24,12 +24,12 @@ The problem says that the group with a little reward has a higher response rate 
 ### Script
 
 <details>
-  <summary>Initial Discussion on Experiment Results</summary>
+  <summary><b>Initial Discussion on Experiment Results</b></summary>
   <p>
-    Interviewer: "This is an A/B testing question. Let's say that you design an experiment to measure the impact of financial rewards on users' response rates. So let's say it's a survey and the result shows that the treatment group with $10 in rewards has a 30% response rate, while the control group without rewards has a 50% response rate. This is... You know obviously on and so can you explain what might have happened and how you can improve this experimental design?"
+    <strong>Interviewer:</strong> "This is an A/B testing question. Let's say that you design an experiment to measure the impact of financial rewards on users' response rates. So let's say it's a survey and the result shows that the treatment group with $10 in rewards has a 30% response rate, while the control group without rewards has a 50% response rate. This is... You know obviously on and so can you explain what might have happened and how you can improve this experimental design?"
   </p>
   <p>
-    Candidate: "Yes, for sure. So this definitely seems odd. Because I mean, general intuition says that if you give someone a financial incentive so then they tend to reciprocate or respond more. If the control group itself is having 50% then the treatment group should at least have 50%.
+    <strong>Candidate:</strong> "Yes, for sure. So this definitely seems odd. Because I mean, general intuition says that if you give someone a financial incentive so then they tend to reciprocate or respond more. If the control group itself is having 50% then the treatment group should at least have 50%.
 
     So some things I would definitely think is, I mean one would be like I would probably trust the experimentation process and then see that okay maybe offering financial incentive is discouraging them. Because they might feel that we are kind of like buying their response and they don't want to really do it. So that could be a hypothesis that seems very unlikely but that could be the reason everything went well and that is what happening and the company is better of just by not giving incentives.
 
@@ -47,22 +47,22 @@ The problem says that the group with a little reward has a higher response rate 
 </details>
 
 <details>
-  <summary>Exploring Experiment Design Improvements</summary>
+  <summary><b>Exploring Experiment Design Improvements</b></summary>
   <p>
-    Inteviewer: "Gotcha. What could be an alternative explanation that is there any worth towards increasing the size of the reward in this case like maybe people think $10 is too small, would be then worth testing or is it the fact that maybe the control group without any kind of reward gives them some sort of other benefit towards like the $10?"
+    <strong>Inteviewer:</strong> "Gotcha. What could be an alternative explanation that is there any worth towards increasing the size of the reward in this case like maybe people think $10 is too small, would be then worth testing or is it the fact that maybe the control group without any kind of reward gives them some sort of other benefit towards like the $10?"
   </p>
   <p>
-    Candidate: "So, if this experiment was really testing the impact of reward on survey completion rates, then even the call to action or the message should be exactly identical except the fact or like an email saying that 'Hey, if you complete this survey, then you will get this you can claim the strength reward.'. If whatever reason control group had some other incentive so maybe what I am testing is not the effectiveness of $10 reward compared to the control I am testing the effectiveness of $10 reward compared to the incentive in control I will definitely go back and look at the exact call to action that I am sending my customers or target population and then see whether there is this I mean what I'm testing is what I'm trying to test."
+    <strong>Candidate:</strong> "So, if this experiment was really testing the impact of reward on survey completion rates, then even the call to action or the message should be exactly identical except the fact or like an email saying that 'Hey, if you complete this survey, then you will get this you can claim the strength reward.'. If whatever reason control group had some other incentive so maybe what I am testing is not the effectiveness of $10 reward compared to the control I am testing the effectiveness of $10 reward compared to the incentive in control I will definitely go back and look at the exact call to action that I am sending my customers or target population and then see whether there is this I mean what I'm testing is what I'm trying to test."
   </p>
 </details>
 
 <details>
-  <summary>Testing Different Reward Strategies</summary>
+  <summary><b>Testing Different Reward Strategies</b></summary>
   <p>
-    Interviewer: "Gotcha. So, for an example what if you advertise it in the subject line like $10 reward for the treatment group but then for the control group you can't really say $10 reward at all, then you have to completely change the subject line in that case, right? So is that testing multiple variants then or is that testing multiple effects or is that still like a valid test?"
+    <strong>Interviewer:</strong> "Gotcha. So, for an example what if you advertise it in the subject line like $10 reward for the treatment group but then for the control group you can't really say $10 reward at all, then you have to completely change the subject line in that case, right? So is that testing multiple variants then or is that testing multiple effects or is that still like a valid test?"
   </p>
   <p>
-    Candidate: "So, for the same reward you can always give the call to action in multiple ways for example so there is some research that says that so for the same $10 reward if you give store credit versus like a free cash or you know like an amazon gift card, so the effects are slightly different.
+    <strong>Candidate:</strong> "So, for the same reward you can always give the call to action in multiple ways for example so there is some research that says that so for the same $10 reward if you give store credit versus like a free cash or you know like an amazon gift card, so the effects are slightly different.
 
     Reward might be the same, but the way you operationalize it will have different effects. In the same way like having an email with subject line that says $10 reward seems kind of like spam. Because you get all these spam emails that look like too good to be true and people are now used to them and you used to just archiving them or deleting them or reporting a spam.
 
@@ -76,13 +76,14 @@ The problem says that the group with a little reward has a higher response rate 
 
   </p>
 </details>
+
 <details>
-  <summary>Final Thoughts and Future Directions</summary>
+  <summary><b>Final Thoughts and Future Directions</b></summary>
   <p>
-    Interviewer: "Yeah, I agree with that too specifically I was thinking that if one email is more catered towards helping out because you should help out on our survey versus another one is more catered towrads here's $10 and it's pretty easy way to make $10 then you're kind of biasing for people that have a financial incentive versus people that just have a regular kind of helping out incentive towards your research study. So that makes sense. Let's say that this is a corrupt result saw changes in a variety of places right whether it's the subject line or something else and let's say you want to run like a great experiment next time. You still have some financial budget. You mentioned that you would just test $5 next to see what would happen is that the perfect experiment that you could run next time like what is the perfect experiment that you would run instead of this like $10 kind of financial reward system? Could you just like describe it from start to end?"
+    <strong>Interviewer:</strong> "Yeah, I agree with that too specifically I was thinking that if one email is more catered towards helping out because you should help out on our survey versus another one is more catered towrads here's $10 and it's pretty easy way to make $10 then you're kind of biasing for people that have a financial incentive versus people that just have a regular kind of helping out incentive towards your research study. So that makes sense. Let's say that this is a corrupt result saw changes in a variety of places right whether it's the subject line or something else and let's say you want to run like a great experiment next time. You still have some financial budget. You mentioned that you would just test $5 next to see what would happen is that the perfect experiment that you could run next time like what is the perfect experiment that you would run instead of this like $10 kind of financial reward system? Could you just like describe it from start to end?"
   </p>
   <p>
-    Candidate: "Oh yeah, sure. So the goal that we are trying to optimize here, is conversion rates. I mean, we want as many people to fill the survey as possible. So, it's not just the completion rate we would want them to put effort into filling the survey. So we would look at the completeness of the survey or the length of if there are text questions we look at the length of the text all that. So, even those should also be considered as the winning I mean the important metrics not just the conversion rate.
+    <strong>Candidate:</strong> "Oh yeah, sure. So the goal that we are trying to optimize here, is conversion rates. I mean, we want as many people to fill the survey as possible. So, it's not just the completion rate we would want them to put effort into filling the survey. So we would look at the completeness of the survey or the length of if there are text questions we look at the length of the text all that. So, even those should also be considered as the winning I mean the important metrics not just the conversion rate.
 
     So I will first decide on what are is important to me so are those like the coimpleteness is that important as well, so if it is what is the weight rate so I will create like a hybrid metric which is representative of what success looks like for me. So that will be my step one is to have like a good overall metric.
 
@@ -100,13 +101,36 @@ The problem says that the group with a little reward has a higher response rate 
 </details>
 
 <details>
-  <summary>Last Question and Discussion</summary>
+  <summary><b>Last Question and Discussion</b></summary>
   <p>
-    Interviewer: "Gotcha. Cool. Last question, this one is kind of tangentially related but let's say that we ran this new experiment again with like the money $10 reward we made everything correct, now we see that the financial incentive has increased the response rate let's say the 60% versus the regular one is 50%. But we have a feeling that after looking through a few of them that the responses are you know like too fast like the sentences are like they're like very short you know they're actually not doing a lot of feedback. What would you think is happening there you know kind of obviously maybe they're just based on the financial success but like what would you do going forward after like seeing this?"
+    <strong>Interviewer:</strong> "Gotcha. Cool. Last question, this one is kind of tangentially related but let's say that we ran this new experiment again with like the money $10 reward we made everything correct, now we see that the financial incentive has increased the response rate let's say the 60% versus the regular one is 50%. But we have a feeling that after looking through a few of them that the responses are you know like too fast like the sentences are like they're like very short you know they're actually not doing a lot of feedback. What would you think is happening there you know kind of obviously maybe they're just based on the financial success but like what would you do going forward after like seeing this?"
   </p>
   <p>
-    Candidate: "Yeah, so I think I kind of touched upon this in the previous one where so I said I'll create like a hybrid metric which takes care of not just the conversion rate but also the number of complete responses and all the other things which is like the length of the text, so all this switch matters to me so that's why if you see like a lot of companies so they don't just have like conversion rate as they like single metric they have like multiple metrics as a combination of these metrics with weights as their metric that they're optimizing for I mean even like tech companies you know like conversion rate itself is not the main thing like you know the total revenue or daily active users amount of time they're spending amount of people there, amount of activity they are doing. So there is like a holistic metric that will be used for optimization. So that will be the outcome metric of the experiment.
+    <strong>Candidate:</strong> "Yeah, so I think I kind of touched upon this in the previous one where so I said I'll create like a hybrid metric which takes care of not just the conversion rate but also the number of complete responses and all the other things which is like the length of the text, so all this switch matters to me so that's why if you see like a lot of companies so they don't just have like conversion rate as they like single metric they have like multiple metrics as a combination of these metrics with weights as their metric that they're optimizing for I mean even like tech companies you know like conversion rate itself is not the main thing like you know the total revenue or daily active users amount of time they're spending amount of people there, amount of activity they are doing. So there is like a holistic metric that will be used for optimization. So that will be the outcome metric of the experiment.
   <p>
-    Interviewer: "Yeah that makes sense. And being able to calculate that is better towards an overall improvement there. So cool."
+    <strong>Interviewer:</strong> "Yeah that makes sense. And being able to calculate that is better towards an overall improvement there. So cool."
   </p>
 </details>
+
+<style>
+details summary {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+  color: blue;
+}
+
+details summary b {
+  font-weight: bold;
+}
+
+details p {
+  padding: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+details p strong {
+  font-weight: bold;
+}
+</style>
