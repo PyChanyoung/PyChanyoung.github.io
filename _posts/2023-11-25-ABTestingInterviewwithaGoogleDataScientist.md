@@ -11,13 +11,15 @@ author_profile: false
 
 **Note**: The following content is summarized from [A/B Testing Interview with a Google Data Scientist](https://youtu.be/2sWVLMVQsu0) from the [Jay Feng](https://www.youtube.com/@iqjayfeng) channel.
 
-```
-Question
+### Question
 
+```
 Let's say you designed an experiment to measure the impact financial rewards have on users' response rates.
 
 The result shos that the treatment group with $10 rewards has a 30% response rate, while the control group without rewards has a 50% response rate.
 ```
+
+### Summary of the Answer
 
 The problem says that the group with a little reward has a higher response rate than the group with no pay. This is very strange if we think in a normal way. It might mean we missed something in the experiment. In the start of the interview, we can ask many questions. We can ask about how the experiment was made, what the reward is like, and what the people who joined are like.
 
