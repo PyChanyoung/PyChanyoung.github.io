@@ -21,6 +21,14 @@ The result shos that the treatment group with $10 rewards has a 30% response rat
 
 The problem says that the group with a little reward has a higher response rate than the group with no pay. This is very strange if we think in a normal way. It might mean we missed something in the experiment. In the start of the interview, we can ask many questions. We can ask about how the experiment was made, what the reward is like, and what the people who joined are like.
 
+In the video, the candidate presented two hypotheses to solve the problem. First, he suggested that giving rewards might negatively impact respondents, leading to lower response rates. Second, he considered the possibility of technical issues in the system, like malfunctioning reward links. After analyzing these hypotheses, he proposed that if there are no system issues, further investigation into the first hypothesis is needed by testing different reward amounts, such as $5 or $6, to assess their impact on response rates.
+
+The interviewer questioned the influence of the reward's size on the experiment's outcomes. They suggested that $10 might not be enough to motivate participants. In response, the candidate emphasized that the experiment's goal isn't just about the quantity of responses, but also their quality. He plans to develop a new metric that includes the completeness and length of the responses to measure success more effectively.
+
+Once this metric is defined, the candidate will determine the appropriate sample size and duration of the experiment based on its practical significance. He aims to discover whether a 5% increase in response rate is substantial enough to justify the reward implementation. He intends to test different reward amounts to find the most effective strategy and experiment with various methods of presenting the reward, such as not including it in the email subject line.
+
+Lastly, the interviewer raised a concern about quick and short responses in the rewarded group. The candidate reassured that his new metric would ensure the quality and completeness of responses, aiming to optimize the survey for all participants.
+
 ### Script
 
 <details>
