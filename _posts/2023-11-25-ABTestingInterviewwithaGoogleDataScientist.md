@@ -9,12 +9,7 @@ toc_label: Syllabus
 author_profile: false
 ---
 
-<details>
-  <summary>Introduction</summary>
-  <p>
-    **Note**: The following content is summarized from [A/B Testing Interview with a Google Data Scientist](https://youtu.be/2sWVLMVQsu0) from the [Jay Feng](https://www.youtube.com/@iqjayfeng) channel.
-  </p>
-</details>
+**Note**: The following content is summarized from [A/B Testing Interview with a Google Data Scientist](https://youtu.be/2sWVLMVQsu0) from the [Jay Feng](https://www.youtube.com/@iqjayfeng) channel.
 
 ```
 Question
