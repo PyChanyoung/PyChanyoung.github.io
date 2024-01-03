@@ -21,7 +21,7 @@ title_separator: "|"
 subtitle: "Tech Note."
 name: "Chanyoung"
 description: "Miscellaneous technical notes."
-url: "https://chanyoungpark88.github.io"
+url: "https://PyChanyoung.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -110,26 +110,26 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:chanyoung.p.1988@gmail.com"
+      url: "mailto:PyChanyoung@gmail.com"
     - label: "Porfolio"
       icon: "fas fa-fw fa-link"
       url: "https://chanyoungpark.vercel.app"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ChanyoungPark88"
+      url: "https://github.com/PyChanyoung"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/chanyoung-park-001111128/"
+      url: "https://www.linkedin.com/in/PyChanyoung/"
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ChanyoungPark88"
+      url: "https://github.com/PyChanyoung"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/chanyoung-park-001111128/"
+      url: "https://www.linkedin.com/in/PyChanyoung/"
 
 # Reading Files
 include:
